@@ -17,6 +17,9 @@ namespace Special
         {
             Console.WriteLine("Insert n-th number of the special sequence:");
             int n= int.Parse(Console.ReadLine());
+
+            int sp= GetSpecial(n);
+            Console.WriteLine(sp);
         }
     }
 }
