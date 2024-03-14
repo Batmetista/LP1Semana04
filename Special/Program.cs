@@ -13,5 +13,10 @@ namespace Special
                 return 1;
             GetSpecial (n - 1) + 2*GetSpecial(n - 2);
         }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Insert n-th number of the special sequence:");
+            int n= int.Parse(Console.ReadLine());
+        }
     }
 }
